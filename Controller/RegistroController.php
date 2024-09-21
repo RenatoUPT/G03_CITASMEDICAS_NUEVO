@@ -1,5 +1,5 @@
 <?php
-include("../Model/RegistroModel.php");
+include_once "../Model/RegistroModel.php";
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $registroModel = new RegistroModel();

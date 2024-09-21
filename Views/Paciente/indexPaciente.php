@@ -136,13 +136,11 @@
               </a>
             </li>
             <br/>
-            <center>
             <li class="sidebar-item">
               <a class="btn btn-outline-danger" href="../../index.php" aria-expanded="false">               
                 <span class="hide-menu">Cerrar Sesion</span>
               </a>
             </li>
-            </center>
           </ul>
         </nav>
       </div>

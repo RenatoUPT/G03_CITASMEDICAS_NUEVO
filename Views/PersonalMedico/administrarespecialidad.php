@@ -133,13 +133,11 @@
               </a>
             </li>
             <br/>
-            <center>
             <li class="sidebar-item">
               <a class="btn btn-outline-danger" href="../../index.php" aria-expanded="false">               
                 <span class="hide-menu">Cerrar Sesion</span>
               </a>
             </li>
-            </center>
           </ul>
         </nav>
         <!-- End Sidebar navigation -->
@@ -184,9 +182,7 @@
         <div class="container-fluid">
           <div class="card">
             <div class="card-body">
-              <center>
               <h5 class="card-title fw-semibold mb-4"><strong>--Administrar Especialidades--</strong></h5>
-              </center>
               <div class="card">
                 <div class="card-body">
                   <form action="../../Controller/EspecialidadController.php" method="POST">
@@ -219,9 +215,7 @@
                   </form>
                   </div>
                 <div class="card-body">
-                  <center>
                   <h5 class="card-title fw-semibold mb-4"><strong>--Lista de Doctores y Especialidades--</strong></h5>
-                  </center>
                   <div class="col-lg-12 d-flex align-items-stretch">
                         <div class="card w-100">
                         <div class="card-body p-4">

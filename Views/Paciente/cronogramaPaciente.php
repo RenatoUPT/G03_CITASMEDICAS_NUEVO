@@ -130,13 +130,11 @@
               </a>
             </li>
             <br/>
-            <center>
             <li class="sidebar-item">
               <a class="btn btn-outline-danger" href="../../index.php" aria-expanded="false">               
                 <span class="hide-menu">Cerrar Sesion</span>
               </a>
             </li>
-            </center>
           </ul>
         </nav>
       </div>
@@ -175,9 +173,7 @@
       <div class="container-fluid">
           <div class="card">
             <div class="card-body">
-              <center>
                   <h5 class="card-title fw-semibold mb-4"><strong>--Horario de Atención--</strong></h5>
-              </center>
               <div class="row">
               <?php foreach ($horarios as $horario): ?>
                 <div class="col-md-4">

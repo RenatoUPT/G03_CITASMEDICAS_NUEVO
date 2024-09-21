@@ -134,13 +134,11 @@
               </a>
             </li>
             <br/>
-            <center>
             <li class="sidebar-item">
               <a class="btn btn-outline-danger" href="../../index.php" aria-expanded="false">               
                 <span class="hide-menu">Cerrar Sesion</span>
               </a>
             </li>
-            </center>
           </ul>
         </nav>
         <!-- End Sidebar navigation -->
@@ -185,9 +183,7 @@
         <div class="container-fluid">
           <div class="card">
             <div class="card-body">
-              <center>
                 <h5 class="card-title fw-semibold mb-4"><strong>--Agendar Cita Médica--</strong></h5>
-              </center>
               <?php
               // Mostrar mensajes de éxito o error
               if (isset($_GET['success'])) {
@@ -229,13 +225,10 @@
                     <option value="">--Seleccione una hora--</option>
                   </select>
                 </div>
-                <center>
                   <button type="submit" class="btn btn-primary">Agendar Cita Medica</button>
-                </center>
+
               </form>
-              <center>
                 <h3 class="mt-4"><strong>--Mis Citas Programadas--</strong></h3>
-              </center>
               <table class="table">
                 <thead>
                   <tr>

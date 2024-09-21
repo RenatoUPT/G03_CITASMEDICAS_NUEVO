@@ -1,6 +1,6 @@
 <?php
 session_start();
-include("../Model/UsuarioModel.php");
+include_once "../Model/UsuarioModel.php";
 
 function login($dniusuario, $contrasenia) {
     $usuarioModel = new UsuarioModel();
